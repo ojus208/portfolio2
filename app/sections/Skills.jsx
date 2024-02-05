@@ -8,7 +8,7 @@ const Skills = () => {
 
     useEffect(() => {
       const getskills = async()=>{
-        let res = await fetch('http://localhost:3000/api/skills',{
+        let res = await fetch('api/skills',{
           method: "GET",
           headers: {
             "Content-Type": "application/json",
