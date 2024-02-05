@@ -1,4 +1,4 @@
-import {} from "../asset/icon";
+
 import {
   c,
   cpp,
@@ -13,7 +13,7 @@ import {
   react,
   restapi,
 } from "../asset/icon";
-import { sec1, sec2, sec3, sec4 } from "../asset/images";
+
 
 const skillset = [
   {
@@ -44,30 +44,6 @@ const skillset = [
   },
 ];
 
-const projectlist = [
-  {
-    name: "Amazon 2.0",
-    images: [sec1, sec2, sec3, sec4],
-    description:
-      "Amazon 2.0 is a visionary e-commerce project, meticulously crafted using the power of React and Django Rest Framework. Offering an intuitive, modern interface, it revolutionizes online shopping. With advanced features like personalized product recommendations, lightning-fast search, and robust security, Amazon 2.0 ensures a seamless and secure shopping experience. ",
-    techstack: [
-      {
-        name: "React",
-        iconURL: "reactjs",
-      },
-      {
-        name: "django",
-        iconURL: "django",
-      },
-      {
-        name: "Rest API",
-        iconURL: "restapi",
-      },
-    ],
-    Livelink: "https://www.amazon.in/",
-    gitlink: "https://github.com/ojus208/amazon-clone",
-  },
-];
 
 
 const mystrengths = [
@@ -85,4 +61,4 @@ const mystrengths = [
   }
 ]
 
-export { skillset, projectlist, mystrengths };
+export { skillset, mystrengths };
