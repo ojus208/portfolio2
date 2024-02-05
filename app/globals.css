@@ -61,7 +61,3 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
-
-.bg-intro-img{
-  background: url('asset/images/bg3.png');
-}
