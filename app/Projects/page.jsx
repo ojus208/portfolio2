@@ -16,7 +16,7 @@ const Page = ({searchParams}) => {
   useEffect(() => {
       const getporjectlist = async()=>{
         var url 
-        projectTech ?  url = 'http://localhost:3000/api/projects/'+projectTech : url = 'http://localhost:3000/api/projects/'
+        projectTech ?  url = 'api/projects/'+projectTech : url = 'api/projects/'
         let res = await fetch(url,{
           method: "GET",
           headers: {
